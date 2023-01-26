@@ -11,12 +11,10 @@
 #   print("------------------")
 #   n+=1
 
-factor_1 = 0
 producto = 0
 
-for j in range(1,11):
-  factor_1 += 1
+for i in range(1,11):
   print()
-  for i in range(1,11):
-    producto = factor_1 * i
-    print(f"{factor_1} x {i} = {producto}")
+  for j in range(1,11):
+    producto = i * j
+    print(f"{i} x {j} = {producto}")
