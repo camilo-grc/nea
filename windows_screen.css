@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  font-family: roboto mono;
+  color: white;
+}
+
+.windows-rectangle{
+  background-color: #0000AC;
+  padding: 50px 30px;
+  margin: 0 auto;
+  width: 39%;
+  height: 100vh;
+}
+
+.tap-text{
+  text-align: end;
+}
+
+.tap-text:hover{
+  cursor: pointer;
+}
+
+.windows-rectangle div{
+  margin: 0 auto;
+  width: 75px;
+  background-color: #ACA9B4;
+  padding: 1px 10px;
+  color: #0000AC;
+  font-family: roboto mono;
+  font-weight: bold;
+}
